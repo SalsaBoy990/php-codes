@@ -12,9 +12,10 @@ More to come soon...
 Next app I will create is: Get current weather at your town/city with an API.
 
 **Usage**
-XAMPP: just copy the files inside the */htdocs* folder
-Laragon: put the files into */www* folder
-Or use the dev environment of your choice.
+
+- XAMPP: just copy the files inside the */htdocs* folder
+- Laragon: put the files into */www* folder
+- Or use the dev environment of your choice.
 
 
 
