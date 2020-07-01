@@ -10,7 +10,8 @@
 class CurrentWeather
 {
   // Open Weather API key (free version)
-  private const APIKEY = '822f8767fbbb3bab53e132f04f1425a5';
+  // Get your key: https://openweathermap.org/api
+  private const APIKEY = 'YOUR-API-KEY-HERE';
 
 
   // City name
