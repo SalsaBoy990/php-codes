@@ -1,0 +1,128 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: table;
+  color: #f9f9f9;
+  font-weight: 100;
+  font-family: 'Roboto';
+  /* background-color: rgb(75, 95, 120); */
+  background-color: rgb(55, 65, 80);
+}
+
+a {
+  color: #ac4;
+}
+
+.red {
+  background: #e47c4c;
+}
+.red {
+  background: #e1e44c;
+}
+.red {
+  background: #51e44c;
+}
+
+a:hover {
+  color: #d8ff64;
+}
+
+/* a:visited {
+  color: initial;
+} */
+
+
+.container {
+  padding: 1rem 2rem;
+  /* text-align: center; */
+  text-align: left;
+}
+
+
+.title {
+  font-size: 96px;
+}
+
+.opt {
+  margin-top: 30px;
+}
+
+.opt a {
+  text-decoration: none;
+  font-size: 150%;
+}
+
+
+.table {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-size: 20px;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+.table tr:nth-child(odd) {
+  padding: 10px;
+  background-color: #eee;
+}
+
+.table td {
+  padding: 10px;
+  color: red;
+}
+
+tr.tr>th {
+  background: gray;
+  color: white;
+  padding: 10px;
+}
+
+.no-bullets {
+  list-style-type: none;
+  list-style-image: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.no-bullets li {
+  margin-bottom: 15px;
+}
+
+ul.no-bullets>li:last-child {
+  margin-bottom: 0px;
+}
+
+.icon-24 {
+  position: relative;
+  stroke: #eee;
+  top: 5px;
+  margin-right: 2px;
+  width: 24px;
+  height: 24px;
+}
+
+svg path,
+svg line,
+svg polyline,
+svg circle {
+  stroke: #eee !important;
+}
+
+.icon {
+  position: relative;
+  top: 10px;
+  width: 36px;
+  height: 36px;
+}
+
+.error-box {
+  color: #ff7765;
+  padding-top: 20px;
+}
